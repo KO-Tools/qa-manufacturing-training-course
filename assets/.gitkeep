@@ -1,0 +1,30 @@
+# Assets Directory
+
+This directory contains static assets for the Kind Oasis Manufacturing QA Course.
+
+## Required Assets
+
+The following assets should be added to this directory:
+
+### Images
+- `kind-oasis-logo.png` - Company logo for header and certificate
+- `favicon.ico` - Browser favicon
+
+### Future Assets
+- Product images for interactive elements
+- Facility layout diagrams
+- Equipment photos for training modules
+- Video content (if needed)
+
+## Asset Guidelines
+
+- **Logo**: PNG format, transparent background, high resolution
+- **Images**: Optimized for web (WebP preferred, JPG/PNG acceptable)
+- **Icons**: SVG format when possible for scalability
+- **Videos**: MP4 format, compressed for web delivery
+
+## File Naming Convention
+
+- Use lowercase with hyphens: `kind-oasis-logo.png`
+- Include descriptive names: `facility-layout-diagram.jpg`
+- Version numbers if needed: `logo-v2.png`
