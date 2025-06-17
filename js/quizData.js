@@ -1,159 +1,6 @@
 // Quiz Data Structure
 const quizData = {
-    1: {
-        title: "Course Overview and Objectives Quiz",
-        questions: [
-            {
-                id: 1,
-                question: "What is the primary goal of this Kind Oasis Manufacturing Quality Assurance Course?",
-                options: [
-                    "To increase production speed",
-                    "To provide comprehensive training for cannabis manufacturing excellence and regulatory compliance",
-                    "To reduce manufacturing costs",
-                    "To improve marketing strategies"
-                ],
-                correct: 1,
-                explanation: "The course is designed to provide comprehensive training covering all aspects of cannabis manufacturing quality assurance, regulatory compliance, and best practices."
-            },
-            {
-                id: 2,
-                question: "How many modules are included in this training course?",
-                options: [
-                    "12 modules",
-                    "16 modules", 
-                    "14 modules",
-                    "10 modules"
-                ],
-                correct: 2,
-                explanation: "The course contains 14 comprehensive modules covering everything from company introduction to continuous improvement systems."
-            },
-            {
-                id: 3,
-                question: "Quality assurance in cannabis manufacturing extends beyond testing and inspection to encompass:",
-                options: [
-                    "Only production activities",
-                    "Every aspect of manufacturing operations, from raw material sourcing to customer delivery",
-                    "Only packaging and labeling",
-                    "Only regulatory compliance"
-                ],
-                correct: 1,
-                explanation: "Quality assurance is a comprehensive culture that encompasses every aspect of manufacturing operations, not just testing and inspection."
-            },
-            {
-                id: 4,
-                question: "What interactive features will you encounter throughout this course?",
-                options: [
-                    "Only written assessments",
-                    "Only videos and presentations",
-                    "Scenario-based simulations, interactive calculators, virtual facility tours, case studies, and assessment quizzes",
-                    "Only reading materials"
-                ],
-                correct: 2,
-                explanation: "The course includes various interactive elements designed to enhance learning, including simulations, calculators, virtual tours, case studies, and quizzes."
-            },
-            {
-                id: 5,
-                question: "According to the course, what is quality culture at Kind Oasis?",
-                options: [
-                    "A separate department responsible for testing",
-                    "The foundation of everything we do, ensuring every product meets the highest standards",
-                    "An optional business practice",
-                    "Only important during inspections"
-                ],
-                correct: 1,
-                explanation: "At Kind Oasis, quality is not just a department but the foundation of everything the company does, ensuring products meet the highest standards of safety, potency, and consistency."
-            },
-            {
-                id: 6,
-                question: "What commitment is required for successful completion of this course?",
-                options: [
-                    "Complete all 14 modules and quizzes, engage with interactive elements, and apply concepts in daily work",
-                    "Only pass the final exam",
-                    "Only attend scheduled meetings",
-                    "Only read the materials"
-                ],
-                correct: 0,
-                explanation: "Success requires completing all modules and quizzes, actively engaging with interactive elements, and applying learned concepts in daily work activities."
-            }
-        ]
-    },
-    2: {
-        title: "Kind Oasis Company Introduction Quiz",
-        questions: [
-            {
-                id: 1,
-                question: "Where is Kind Oasis manufacturing facility located?",
-                options: [
-                    "Chicago, Illinois",
-                    "Milwaukee, Wisconsin",
-                    "Minneapolis, Minnesota",
-                    "Madison, Wisconsin"
-                ],
-                correct: 1,
-                explanation: "Kind Oasis is a Milwaukee-based manufacturer and retailer of premium, lab-tested hemp-derived wellness products."
-            },
-            {
-                id: 2,
-                question: "What manufacturing philosophy does Kind Oasis follow?",
-                options: [
-                    "Large-scale mass production",
-                    "Small-batch manufacturing that prioritizes quality over quantity",
-                    "Automated production with minimal oversight",
-                    "Outsourced manufacturing"
-                ],
-                correct: 1,
-                explanation: "Kind Oasis operates on a small-batch manufacturing philosophy that enables greater quality control, faster problem identification, and more personalized attention to product details."
-            },
-            {
-                id: 3,
-                question: "Which of the following is NOT mentioned as one of Kind Oasis's quality values?",
-                options: [
-                    "All-Natural",
-                    "Vegan",
-                    "Lab Tested",
-                    "Mass Produced"
-                ],
-                correct: 3,
-                explanation: "Kind Oasis's quality values include All-Natural, Vegan, Lab Tested, and Locally Made. Mass production is contrary to their small-batch philosophy."
-            },
-            {
-                id: 4,
-                question: "What product categories does Kind Oasis manufacture?",
-                options: [
-                    "Only gummies and chocolates",
-                    "Only tinctures and topicals",
-                    "Gummies, chocolates, tinctures, topicals, seltzers, shooters, syrups, and functional mushrooms",
-                    "Only CBD products"
-                ],
-                correct: 2,
-                explanation: "Kind Oasis manufactures a diverse range including gummies, chocolates, tinctures, topicals, seltzers, shooters, syrups, and functional mushroom products."
-            },
-            {
-                id: 5,
-                question: "What is Kind Oasis's commitment regarding THC compliance?",
-                options: [
-                    "Products may contain any amount of THC",
-                    "Strict adherence to the 2018 Farm Bill, ensuring all products contain ≤0.3% Delta-9 THC",
-                    "Only CBD products are produced",
-                    "THC content is not monitored"
-                ],
-                correct: 1,
-                explanation: "Kind Oasis maintains strict adherence to the 2018 Farm Bill, ensuring all products contain ≤0.3% Delta-9 THC for federal compliance."
-            },
-            {
-                id: 6,
-                question: "How does Kind Oasis demonstrate transparency to customers?",
-                options: [
-                    "Only through marketing materials",
-                    "Published lab results, QR codes linking to COAs, and open communication about processes",
-                    "Only verbal communication",
-                    "No transparency measures"
-                ],
-                correct: 1,
-                explanation: "Kind Oasis demonstrates transparency through published lab results, QR codes providing instant access to testing data, manufacturing insights, and quality certifications."
-            }
-        ]
-    },
+    // Modules 1 and 2 have no quizzes per user request
     3: {
         title: "Regulatory Landscape Overview Quiz",
         questions: [
@@ -613,6 +460,468 @@ const quizData = {
                 ],
                 correct: 1,
                 explanation: "Forward traceability tracks products from raw materials through all processing steps to final distribution, answering 'Where did it go?' for rapid identification and recall capability."
+            }
+        ]
+    },
+    9: {
+        title: "Personnel Training and Competency Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What is the minimum frequency for refresher training on cGMP principles?",
+                options: [
+                    "Monthly",
+                    "Quarterly",
+                    "Annually",
+                    "Every 5 years"
+                ],
+                correct: 2,
+                explanation: "cGMP principles training should be refreshed annually at minimum to ensure personnel maintain current knowledge of fundamental quality requirements."
+            },
+            {
+                id: 2,
+                question: "Which topic should be included in initial training for all cannabis manufacturing personnel?",
+                options: [
+                    "Advanced chemistry",
+                    "Personal hygiene and contamination prevention",
+                    "Marketing strategies",
+                    "Financial planning"
+                ],
+                correct: 1,
+                explanation: "Personal hygiene and contamination prevention training is essential for all personnel as contamination risks affect product safety and quality regardless of specific job responsibilities."
+            },
+            {
+                id: 3,
+                question: "What is the purpose of competency assessments in cannabis manufacturing?",
+                options: [
+                    "To determine salary levels",
+                    "To verify that employees can perform their jobs safely and effectively",
+                    "To plan vacation schedules",
+                    "To assign parking spaces"
+                ],
+                correct: 1,
+                explanation: "Competency assessments verify that personnel have the knowledge and skills necessary to perform their assigned tasks safely and effectively, ensuring quality and compliance."
+            },
+            {
+                id: 4,
+                question: "Which of the following is a key component of effective training documentation?",
+                options: [
+                    "Employee personal preferences",
+                    "Training content, date, duration, and attendee signatures",
+                    "Salary information",
+                    "Personal contact information"
+                ],
+                correct: 1,
+                explanation: "Effective training documentation must include training content delivered, date and duration of training, and attendee signatures to demonstrate compliance and track training completion."
+            },
+            {
+                id: 5,
+                question: "What should happen when an employee fails a competency assessment?",
+                options: [
+                    "Immediate termination",
+                    "Additional training and re-assessment",
+                    "Salary reduction",
+                    "Transfer to a different department"
+                ],
+                correct: 1,
+                explanation: "When an employee fails a competency assessment, they should receive additional training to address knowledge gaps followed by re-assessment to verify improved competency."
+            },
+            {
+                id: 6,
+                question: "Who is typically responsible for ensuring that training programs meet regulatory requirements?",
+                options: [
+                    "Individual employees",
+                    "Quality assurance personnel",
+                    "Marketing department",
+                    "Accounting department"
+                ],
+                correct: 1,
+                explanation: "Quality assurance personnel are typically responsible for ensuring that training programs meet regulatory requirements and maintain compliance with industry standards."
+            }
+        ]
+    },
+    10: {
+        title: "Equipment Qualification and Maintenance Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What does 'IQ' stand for in equipment qualification?",
+                options: [
+                    "Intelligence Quotient",
+                    "Installation Qualification",
+                    "Internal Quality",
+                    "Inspection Questionnaire"
+                ],
+                correct: 1,
+                explanation: "IQ stands for Installation Qualification, which verifies that equipment is properly installed according to specifications and manufacturer requirements."
+            },
+            {
+                id: 2,
+                question: "Which qualification phase verifies that equipment operates according to specifications?",
+                options: [
+                    "Installation Qualification (IQ)",
+                    "Operational Qualification (OQ)",
+                    "Performance Qualification (PQ)",
+                    "Design Qualification (DQ)"
+                ],
+                correct: 1,
+                explanation: "Operational Qualification (OQ) verifies that equipment operates according to specifications under normal operating conditions and within specified parameters."
+            },
+            {
+                id: 3,
+                question: "What is the primary purpose of preventive maintenance in cannabis manufacturing?",
+                options: [
+                    "To reduce equipment costs",
+                    "To ensure consistent equipment performance and prevent failures",
+                    "To improve employee satisfaction",
+                    "To meet insurance requirements"
+                ],
+                correct: 1,
+                explanation: "Preventive maintenance ensures consistent equipment performance and prevents unexpected failures that could impact product quality, safety, and production continuity."
+            },
+            {
+                id: 4,
+                question: "How often should critical manufacturing equipment be calibrated?",
+                options: [
+                    "Only when it breaks",
+                    "According to a predetermined schedule based on risk and usage",
+                    "Once per year regardless of usage",
+                    "Only during inspections"
+                ],
+                correct: 1,
+                explanation: "Critical manufacturing equipment should be calibrated according to a predetermined schedule that considers risk level, usage patterns, and manufacturer recommendations to ensure accuracy."
+            },
+            {
+                id: 5,
+                question: "What should be documented when performing equipment maintenance?",
+                options: [
+                    "Only the date of maintenance",
+                    "Date, procedures performed, parts replaced, and technician signature",
+                    "Only the cost of maintenance",
+                    "Only the equipment serial number"
+                ],
+                correct: 1,
+                explanation: "Complete maintenance documentation should include the date, procedures performed, parts replaced, and technician signature to provide full traceability and compliance evidence."
+            },
+            {
+                id: 6,
+                question: "Which type of equipment typically requires the most frequent calibration in cannabis testing?",
+                options: [
+                    "Packaging equipment",
+                    "Analytical instruments (scales, HPLC, etc.)",
+                    "Lighting systems",
+                    "Office computers"
+                ],
+                correct: 1,
+                explanation: "Analytical instruments like scales and HPLC systems require the most frequent calibration because they directly impact the accuracy of quality testing and compliance measurements."
+            }
+        ]
+    },
+    11: {
+        title: "Supply Chain and Vendor Management Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What is the most important factor when selecting suppliers for cannabis manufacturing?",
+                options: [
+                    "Lowest price",
+                    "Quality, reliability, and regulatory compliance",
+                    "Geographic location",
+                    "Company size"
+                ],
+                correct: 1,
+                explanation: "Quality, reliability, and regulatory compliance are the most important factors in supplier selection as they directly impact product safety, quality, and legal compliance."
+            },
+            {
+                id: 2,
+                question: "Which document should be obtained from suppliers to verify the quality of incoming materials?",
+                options: [
+                    "Invoice only",
+                    "Certificate of Analysis (COA)",
+                    "Marketing brochure",
+                    "Company newsletter"
+                ],
+                correct: 1,
+                explanation: "A Certificate of Analysis (COA) provides essential information about material quality, testing results, and compliance with specifications, making it crucial for quality verification."
+            },
+            {
+                id: 3,
+                question: "What is the purpose of conducting supplier audits?",
+                options: [
+                    "To negotiate better prices",
+                    "To verify that suppliers meet quality and regulatory standards",
+                    "To plan social events",
+                    "To compare marketing strategies"
+                ],
+                correct: 1,
+                explanation: "Supplier audits verify that vendors maintain the quality systems and regulatory compliance necessary to consistently provide materials that meet requirements."
+            },
+            {
+                id: 4,
+                question: "How should incoming raw materials be handled upon receipt?",
+                options: [
+                    "Immediately used in production",
+                    "Quarantined until quality testing is complete",
+                    "Stored in any available space",
+                    "Returned to supplier"
+                ],
+                correct: 1,
+                explanation: "Incoming raw materials should be quarantined until quality testing and approval are complete to prevent the use of non-conforming materials in production."
+            },
+            {
+                id: 5,
+                question: "What information should be included in a supplier qualification program?",
+                options: [
+                    "Supplier's financial statements only",
+                    "Quality systems, certifications, and compliance history",
+                    "Employee personal information",
+                    "Marketing strategies"
+                ],
+                correct: 1,
+                explanation: "A supplier qualification program should evaluate quality systems, certifications, and compliance history to ensure suppliers can consistently meet quality and regulatory requirements."
+            },
+            {
+                id: 6,
+                question: "Which of the following is a key component of effective vendor management?",
+                options: [
+                    "Regular communication and performance monitoring",
+                    "Avoiding all contact with vendors",
+                    "Focusing only on price negotiations",
+                    "Changing vendors frequently"
+                ],
+                correct: 0,
+                explanation: "Regular communication and performance monitoring are essential for maintaining strong supplier relationships and ensuring continued compliance with quality requirements."
+            }
+        ]
+    },
+    12: {
+        title: "Batch Release and Product Disposition Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What must be completed before a cannabis product batch can be released for distribution?",
+                options: [
+                    "Marketing approval only",
+                    "All quality control testing and documentation review",
+                    "Financial approval only",
+                    "Packaging design approval"
+                ],
+                correct: 1,
+                explanation: "All quality control testing must be completed and all documentation must be reviewed and approved before a batch can be released to ensure compliance and safety."
+            },
+            {
+                id: 2,
+                question: "Who typically has the authority to approve or reject product batches?",
+                options: [
+                    "Production supervisor",
+                    "Qualified person or quality assurance manager",
+                    "Marketing manager",
+                    "Accounting department"
+                ],
+                correct: 1,
+                explanation: "A qualified person or quality assurance manager with appropriate training and authority is responsible for making batch release decisions based on quality and compliance criteria."
+            },
+            {
+                id: 3,
+                question: "What should happen to a product batch that fails quality control testing?",
+                options: [
+                    "Release it anyway",
+                    "Investigate, determine root cause, and disposition appropriately",
+                    "Ignore the results",
+                    "Blend it with passing batches"
+                ],
+                correct: 1,
+                explanation: "Failed batches require investigation to determine root cause, followed by appropriate disposition such as rework, rejection, or destruction based on the nature of the failure."
+            },
+            {
+                id: 4,
+                question: "Which document provides the final approval for batch release?",
+                options: [
+                    "Production record",
+                    "Batch release certificate or disposition record",
+                    "Invoice",
+                    "Marketing plan"
+                ],
+                correct: 1,
+                explanation: "A batch release certificate or disposition record documents the final approval decision and provides evidence that all requirements have been met before release."
+            },
+            {
+                id: 5,
+                question: "What is the purpose of quarantine procedures in cannabis manufacturing?",
+                options: [
+                    "To reduce storage costs",
+                    "To prevent release of products before quality approval",
+                    "To improve production speed",
+                    "To reduce labor requirements"
+                ],
+                correct: 1,
+                explanation: "Quarantine procedures prevent the inadvertent release or use of products before they have been properly tested, reviewed, and approved for release."
+            },
+            {
+                id: 6,
+                question: "How should non-conforming products be handled?",
+                options: [
+                    "Released immediately",
+                    "Clearly identified, segregated, and investigated",
+                    "Mixed with conforming products",
+                    "Ignored"
+                ],
+                correct: 1,
+                explanation: "Non-conforming products must be clearly identified, segregated from conforming products, and investigated to determine appropriate disposition and prevent quality issues."
+            }
+        ]
+    },
+    13: {
+        title: "Audit Preparation and Regulatory Inspections Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What is the primary purpose of conducting internal audits?",
+                options: [
+                    "To find fault with employees",
+                    "To identify and correct deficiencies before regulatory inspections",
+                    "To reduce operational costs",
+                    "To plan marketing strategies"
+                ],
+                correct: 1,
+                explanation: "Internal audits proactively identify and correct deficiencies before external regulatory inspections, demonstrating commitment to continuous improvement and compliance."
+            },
+            {
+                id: 2,
+                question: "Which documents should be readily available during a regulatory inspection?",
+                options: [
+                    "Employee personal files only",
+                    "SOPs, batch records, testing data, and training records",
+                    "Marketing materials only",
+                    "Financial statements only"
+                ],
+                correct: 1,
+                explanation: "Essential quality and compliance documents including SOPs, batch records, testing data, and training records should be readily accessible during regulatory inspections."
+            },
+            {
+                id: 3,
+                question: "What is the recommended approach when responding to inspector questions?",
+                options: [
+                    "Provide vague, general answers",
+                    "Be honest, direct, and provide requested documentation",
+                    "Refuse to answer questions",
+                    "Provide only verbal responses"
+                ],
+                correct: 1,
+                explanation: "Honest, direct responses with appropriate documentation demonstrate transparency and professionalism while facilitating efficient inspections."
+            },
+            {
+                id: 4,
+                question: "How often should internal audits be conducted?",
+                options: [
+                    "Only when problems occur",
+                    "On a regular, predetermined schedule",
+                    "Only before regulatory inspections",
+                    "Never"
+                ],
+                correct: 1,
+                explanation: "Internal audits should be conducted on a regular, predetermined schedule to ensure consistent monitoring of quality systems and proactive identification of issues."
+            },
+            {
+                id: 5,
+                question: "What should be done if an inspector identifies a deficiency?",
+                options: [
+                    "Deny the deficiency exists",
+                    "Acknowledge it and provide a corrective action plan",
+                    "Blame other employees",
+                    "Ignore the inspector's findings"
+                ],
+                correct: 1,
+                explanation: "Acknowledging deficiencies and providing comprehensive corrective action plans demonstrates professionalism and commitment to addressing issues."
+            },
+            {
+                id: 6,
+                question: "Which of the following is most important for successful audit preparation?",
+                options: [
+                    "Hiding problematic documents",
+                    "Maintaining complete, accurate, and current documentation",
+                    "Training employees to avoid inspectors",
+                    "Focusing only on production areas"
+                ],
+                correct: 1,
+                explanation: "Complete, accurate, and current documentation is the foundation of successful audit preparation and demonstrates ongoing compliance with quality requirements."
+            }
+        ]
+    },
+    14: {
+        title: "Continuous Improvement and Quality Management Systems Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What is the primary goal of a continuous improvement program?",
+                options: [
+                    "To reduce employee satisfaction",
+                    "To systematically enhance processes, products, and systems",
+                    "To increase production costs",
+                    "To complicate procedures"
+                ],
+                correct: 1,
+                explanation: "Continuous improvement programs systematically enhance processes, products, and systems to achieve better quality, efficiency, and customer satisfaction over time."
+            },
+            {
+                id: 2,
+                question: "Which tool is commonly used to identify the root cause of quality problems?",
+                options: [
+                    "Marketing surveys",
+                    "Fishbone diagram or 5 Why analysis",
+                    "Financial reports",
+                    "Employee schedules"
+                ],
+                correct: 1,
+                explanation: "Fishbone diagrams and 5 Why analysis are systematic problem-solving tools that help identify root causes rather than just symptoms of quality problems."
+            },
+            {
+                id: 3,
+                question: "What does 'CAPA' stand for in quality management?",
+                options: [
+                    "Customer and Product Analysis",
+                    "Corrective and Preventive Action",
+                    "Cost and Performance Assessment",
+                    "Compliance and Procedure Audit"
+                ],
+                correct: 1,
+                explanation: "CAPA stands for Corrective and Preventive Action, which addresses current problems and prevents their recurrence through systematic investigation and improvement."
+            },
+            {
+                id: 4,
+                question: "Which metric is most useful for measuring the effectiveness of a quality management system?",
+                options: [
+                    "Production volume only",
+                    "Trend analysis of quality indicators and customer complaints",
+                    "Employee attendance",
+                    "Marketing expenses"
+                ],
+                correct: 1,
+                explanation: "Trend analysis of quality indicators and customer complaints provides insight into system effectiveness and improvement opportunities over time."
+            },
+            {
+                id: 5,
+                question: "What is the purpose of management review in a quality management system?",
+                options: [
+                    "To criticize employees",
+                    "To evaluate system effectiveness and identify improvement opportunities",
+                    "To plan social events",
+                    "To reduce operational costs"
+                ],
+                correct: 1,
+                explanation: "Management review evaluates the effectiveness of quality management systems and identifies opportunities for improvement and resource allocation."
+            },
+            {
+                id: 6,
+                question: "Which of the following best describes a culture of continuous improvement?",
+                options: [
+                    "Resistance to change",
+                    "Proactive identification and resolution of issues by all employees",
+                    "Blame-focused problem solving",
+                    "Reactive responses to problems only"
+                ],
+                correct: 1,
+                explanation: "A culture of continuous improvement involves all employees proactively identifying and resolving issues, fostering innovation and ongoing enhancement of operations."
             }
         ]
     }

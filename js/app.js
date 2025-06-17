@@ -7,7 +7,7 @@ class CourseApp {
         this.quizResults = {};
         this.currentQuestion = 0;
         this.currentQuizAnswers = {};
-        this.totalModules = 8;
+        this.totalModules = 14;
         this.certificateGenerated = false;
 
         // Initialize progress tracking
@@ -244,7 +244,13 @@ class CourseApp {
 
     startQuiz() {
         const quiz = quizData[this.currentModule];
-        if (!quiz) return;
+        if (!quiz) {
+            // Module has no quiz, mark as completed and continue
+            this.moduleProgress[this.currentModule].completed = true;
+            this.updateProgressDisplay();
+            this.saveProgress();
+            return;
+        }
 
         this.currentQuestion = 0;
         this.currentQuizAnswers = {};
