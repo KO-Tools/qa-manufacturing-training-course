@@ -7,7 +7,7 @@ class CourseApp {
         this.quizResults = {};
         this.currentQuestion = 0;
         this.currentQuizAnswers = {};
-        this.totalModules = 14;
+        this.totalModules = 8;
         this.certificateGenerated = false;
 
         // Initialize progress tracking
