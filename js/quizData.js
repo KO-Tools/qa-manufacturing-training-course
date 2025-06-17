@@ -384,6 +384,237 @@ const quizData = {
                 explanation: "Testing margin of error is critical because it can affect compliance determinations, especially for results near the 0.3% THC threshold where measurement uncertainty could impact legal status."
             }
         ]
+    },
+    6: {
+        title: "Quality Control Testing Protocols Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "Which analytical instruments are mentioned as important for laboratory selection?",
+                options: [
+                    "HPLC, GC-MS, and ICP-MS",
+                    "UV-Vis and IR only",
+                    "Mass spectrometry only",
+                    "Chromatography only"
+                ],
+                correct: 0,
+                explanation: "Modern analytical instruments including HPLC, GC-MS, and ICP-MS are essential for accurate and reliable cannabis testing results."
+            },
+            {
+                id: 2,
+                question: "What does 'COA' stand for in the context of laboratory reporting?",
+                options: [
+                    "Certificate of Approval",
+                    "Certificate of Analysis",
+                    "Compliance and Oversight Assessment",
+                    "Chemical and Organic Analysis"
+                ],
+                correct: 1,
+                explanation: "COA stands for Certificate of Analysis, which provides comprehensive test results and documentation for each batch tested."
+            },
+            {
+                id: 3,
+                question: "Which heavy metals are specifically mentioned in the testing requirements?",
+                options: [
+                    "Lead and mercury only",
+                    "Lead, mercury, arsenic, and cadmium",
+                    "Iron and copper",
+                    "Aluminum and zinc"
+                ],
+                correct: 1,
+                explanation: "The four heavy metals typically tested in cannabis products are lead, mercury, arsenic, and cadmium due to their potential health risks."
+            },
+            {
+                id: 4,
+                question: "Mycotoxins testing focuses on which specific compounds?",
+                options: [
+                    "Pesticides and herbicides",
+                    "Aflatoxins and ochratoxin A",
+                    "Heavy metals",
+                    "Residual solvents"
+                ],
+                correct: 1,
+                explanation: "Mycotoxins testing specifically targets aflatoxins and ochratoxin A, which are toxic compounds produced by molds that can contaminate cannabis products."
+            },
+            {
+                id: 5,
+                question: "Which certification is specifically mentioned for cannabis testing laboratories?",
+                options: [
+                    "ISO 9001",
+                    "ISO 14001", 
+                    "ISO 17025",
+                    "ISO 45001"
+                ],
+                correct: 2,
+                explanation: "ISO 17025 is the international standard for testing and calibration laboratories, specifically mentioned as required for cannabis testing laboratories."
+            },
+            {
+                id: 6,
+                question: "What is the primary purpose of risk-based testing strategies?",
+                options: [
+                    "To reduce all testing costs",
+                    "To optimize resources while maintaining safety by focusing on high-risk areas",
+                    "To eliminate testing requirements",
+                    "To speed up production processes"
+                ],
+                correct: 1,
+                explanation: "Risk-based testing strategies optimize resources by focusing comprehensive testing on high-risk products while maintaining appropriate safety levels for all products."
+            }
+        ]
+    },
+    7: {
+        title: "Contamination Prevention and Control Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "Which of the following is the most critical factor in preventing cross-contamination in cannabis manufacturing?",
+                options: [
+                    "Product labeling",
+                    "Facility design and workflow",
+                    "Marketing strategies",
+                    "Pricing policies"
+                ],
+                correct: 1,
+                explanation: "Proper facility design and workflow are fundamental to preventing cross-contamination by creating physical barriers and controlled material flow patterns."
+            },
+            {
+                id: 2,
+                question: "What is the primary purpose of establishing controlled access areas in a cannabis manufacturing facility?",
+                options: [
+                    "To reduce labor costs",
+                    "To prevent unauthorized access and contamination",
+                    "To improve product marketing",
+                    "To increase production speed"
+                ],
+                correct: 1,
+                explanation: "Controlled access areas prevent unauthorized personnel from entering manufacturing areas and introducing potential contamination sources."
+            },
+            {
+                id: 3,
+                question: "Which type of contamination poses the greatest health risk in cannabis products?",
+                options: [
+                    "Physical contamination",
+                    "Chemical contamination",
+                    "Microbiological contamination",
+                    "Visual contamination"
+                ],
+                correct: 2,
+                explanation: "Microbiological contamination, including bacteria like E. coli and Salmonella, poses the greatest immediate health risk to consumers."
+            },
+            {
+                id: 4,
+                question: "What is the recommended approach for cleaning and sanitizing equipment between different product batches?",
+                options: [
+                    "Visual inspection only",
+                    "Validated cleaning procedures with verification",
+                    "Simple water rinse",
+                    "Air drying only"
+                ],
+                correct: 1,
+                explanation: "Validated cleaning procedures with verification ensure effective removal of contaminants and prevent cross-contamination between batches."
+            },
+            {
+                id: 5,
+                question: "Which environmental monitoring parameter is most critical for preventing mold growth?",
+                options: [
+                    "Temperature only",
+                    "Humidity only", 
+                    "Both temperature and humidity",
+                    "Lighting conditions"
+                ],
+                correct: 2,
+                explanation: "Both temperature and humidity must be controlled together to prevent mold growth, as molds require specific temperature and moisture conditions to thrive."
+            },
+            {
+                id: 6,
+                question: "What is the primary purpose of implementing a pest control program in cannabis manufacturing?",
+                options: [
+                    "To reduce insurance costs",
+                    "To prevent contamination and maintain product quality",
+                    "To comply with building codes",
+                    "To improve employee morale"
+                ],
+                correct: 1,
+                explanation: "Pest control programs prevent contamination from pests and the diseases they may carry, protecting product quality and consumer safety."
+            }
+        ]
+    },
+    8: {
+        title: "Documentation and Record Keeping Quiz",
+        questions: [
+            {
+                id: 1,
+                question: "What is the primary purpose of maintaining detailed batch records in cannabis manufacturing?",
+                options: [
+                    "Marketing purposes",
+                    "Traceability and quality assurance",
+                    "Employee scheduling",
+                    "Financial reporting"
+                ],
+                correct: 1,
+                explanation: "Detailed batch records provide complete traceability and support quality assurance by documenting all activities and results for each production batch."
+            },
+            {
+                id: 2,
+                question: "How long should quality control testing records typically be retained?",
+                options: [
+                    "6 months",
+                    "1 year",
+                    "3 years or longer as required by regulations",
+                    "30 days"
+                ],
+                correct: 2,
+                explanation: "Quality control testing records should typically be retained for 3 years minimum, or longer if required by specific state or local regulations."
+            },
+            {
+                id: 3,
+                question: "What information must be included in a Standard Operating Procedure (SOP)?",
+                options: [
+                    "Purpose, scope, and step-by-step procedures",
+                    "Employee personal information",
+                    "Marketing strategies",
+                    "Financial data"
+                ],
+                correct: 0,
+                explanation: "SOPs must include the purpose, scope, and detailed step-by-step procedures to ensure consistent execution of activities."
+            },
+            {
+                id: 4,
+                question: "Which of the following is NOT typically required in a Certificate of Analysis (COA)?",
+                options: [
+                    "Test results for potency",
+                    "Contaminant analysis results",
+                    "Laboratory accreditation information",
+                    "Manufacturing cost breakdown"
+                ],
+                correct: 3,
+                explanation: "Manufacturing cost breakdown is not required in a COA. COAs should include test results, laboratory information, and analytical methods, but not production costs."
+            },
+            {
+                id: 5,
+                question: "What does the 'A' in ALCOA-C principles stand for?",
+                options: [
+                    "Accurate and Attributable",
+                    "Approved and Authorized",
+                    "Automated and Accessible",
+                    "Audited and Authenticated"
+                ],
+                correct: 0,
+                explanation: "In ALCOA-C principles, the 'A' stands for both Attributable (clear identification of who performed activities) and Accurate (complete and truthful documentation)."
+            },
+            {
+                id: 6,
+                question: "What is the purpose of forward traceability in cannabis manufacturing?",
+                options: [
+                    "To track employee performance",
+                    "To track products from raw materials through processing to final distribution",
+                    "To monitor equipment maintenance schedules",
+                    "To manage inventory costs"
+                ],
+                correct: 1,
+                explanation: "Forward traceability tracks products from raw materials through all processing steps to final distribution, answering 'Where did it go?' for rapid identification and recall capability."
+            }
+        ]
     }
 };
 

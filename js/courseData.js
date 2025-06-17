@@ -1244,8 +1244,599 @@ const courseData = {
 
                 <p>Cannabis-specific regulations create unique challenges that require specialized knowledge and careful attention to detail. In the next module, we'll explore the comprehensive testing protocols necessary to ensure product safety and regulatory compliance.</p>
             `
-        }
-        // Continue with remaining modules...
+        },
+        {
+            id: 6,
+            title: "Quality Control Testing Protocols",
+            duration: "4 minutes",
+            content: `
+                <h1>Quality Control Testing Protocols</h1>
+                
+                <div class="interactive-element">
+                    <h4>🎯 Learning Objectives</h4>
+                    <p>Upon completion of this module, you will be able to:</p>
+                    <ul>
+                        <li><strong>Design comprehensive testing programs</strong> that address all required analytes while optimizing cost and efficiency</li>
+                        <li><strong>Evaluate testing laboratory capabilities</strong> and establish effective partnerships that support quality objectives</li>
+                        <li><strong>Interpret test results</strong> and make informed decisions about product disposition and process improvements</li>
+                        <li><strong>Implement sampling protocols</strong> that ensure representative testing and accurate results</li>
+                        <li><strong>Establish batch release criteria</strong> that balance quality requirements with operational efficiency</li>
+                    </ul>
+                </div>
+
+                <h2>Testing as Risk Management</h2>
+                <p>Comprehensive testing serves as a critical risk management tool, addressing specific threats to consumer safety and product quality while enabling risk-based testing strategies that optimize resources.</p>
+
+                <div class="interactive-element">
+                    <h4>🧪 Required Testing Categories</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                        <div style="padding: 1rem; background: #2d5016; color: white; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">💊</div>
+                            <h6 style="margin: 0 0 0.5rem;">Cannabinoid Potency</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">THC, CBD, CBG, terpenes, ≤0.3% Delta-9 verification</p>
+                        </div>
+                        <div style="padding: 1rem; background: #4a7c59; color: white; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">⚗️</div>
+                            <h6 style="margin: 0 0 0.5rem;">Heavy Metals</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Lead, mercury, arsenic, cadmium analysis using validated methods</p>
+                        </div>
+                        <div style="padding: 1rem; background: #d4af37; color: #2d5016; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🌿</div>
+                            <h6 style="margin: 0 0 0.5rem;">Pesticides</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Residual pesticides and growth regulators screening</p>
+                        </div>
+                        <div style="padding: 1rem; background: #8fbc8f; color: #2d5016; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🦠</div>
+                            <h6 style="margin: 0 0 0.5rem;">Microbiology</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">E. coli, Salmonella, total yeast and mold counts</p>
+                        </div>
+                        <div style="padding: 1rem; background: #6c757d; color: white; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🍄</div>
+                            <h6 style="margin: 0 0 0.5rem;">Mycotoxins</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Aflatoxins and ochratoxin A analysis</p>
+                        </div>
+                        <div style="padding: 1rem; background: #17a2b8; color: white; border-radius: 8px; text-align: center;">
+                            <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">💧</div>
+                            <h6 style="margin: 0 0 0.5rem;">Residual Solvents</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Extraction solvents: ethanol, butane, other chemicals</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Laboratory Partnership Strategy</h2>
+                <p>Testing laboratories are critical partners in quality assurance. Selecting and maintaining effective laboratory relationships requires systematic evaluation and ongoing performance monitoring.</p>
+
+                <div class="interactive-element">
+                    <h4>🏆 Laboratory Selection Criteria</h4>
+                    <ul>
+                        <li><strong>ISO 17025 Certification:</strong> International standard for testing laboratories specifically for cannabis testing</li>
+                        <li><strong>Modern Analytical Instruments:</strong> HPLC, GC-MS, ICP-MS for accurate and reliable results</li>
+                        <li><strong>Detailed COA Reporting:</strong> Comprehensive Certificates of Analysis with method references</li>
+                        <li><strong>Timely Turnaround:</strong> Results delivery that fits production schedules</li>
+                        <li><strong>Method Validation:</strong> Proven accuracy and reproducibility through validated testing methods</li>
+                        <li><strong>Technical Consultation:</strong> Expert guidance for complex testing scenarios and result interpretation</li>
+                    </ul>
+                </div>
+
+                <h3>Testing Program Design</h3>
+                <p>Effective testing programs balance comprehensive analysis with operational efficiency, using risk-based approaches to prioritize testing activities.</p>
+
+                <div class="interactive-element">
+                    <h4>📋 Testing Program Framework</h4>
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+                        <h5>Risk-Based Testing Strategy:</h5>
+                        <ul style="font-size: 0.9rem;">
+                            <li><strong>High-Risk Products:</strong> Full panel testing for all categories</li>
+                            <li><strong>Medium-Risk Products:</strong> Targeted testing based on historical data</li>
+                            <li><strong>Low-Risk Products:</strong> Reduced testing frequency with periodic verification</li>
+                        </ul>
+                        
+                        <h5>Sampling Protocols:</h5>
+                        <ul style="font-size: 0.9rem;">
+                            <li>Representative sampling procedures for different product types</li>
+                            <li>Statistical sampling plans for large batches</li>
+                            <li>Chain of custody documentation</li>
+                            <li>Sample storage and stability requirements</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Result Interpretation and Decision Making</h2>
+                <p>Test results must be interpreted in context, considering analytical limitations, regulatory requirements, and business implications.</p>
+
+                <h3>Understanding Analytical Uncertainty</h3>
+                <ul>
+                    <li><strong>Measurement Uncertainty:</strong> All analytical results have inherent variability</li>
+                    <li><strong>Detection Limits:</strong> Minimum levels that can be reliably detected</li>
+                    <li><strong>Quantification Limits:</strong> Minimum levels that can be accurately measured</li>
+                    <li><strong>Method Precision:</strong> Reproducibility of results under consistent conditions</li>
+                </ul>
+
+                <div class="interactive-element">
+                    <h4>🔍 Result Interpretation Guidelines</h4>
+                    <div style="background: #fff3cd; padding: 1.5rem; border: 2px solid #ffc107; border-radius: 8px; margin: 1rem 0;">
+                        <h5 style="color: #856404;">Decision Framework:</h5>
+                        <ol style="font-size: 0.9rem; color: #856404;">
+                            <li><strong>Verify Result Validity:</strong> Check for any analytical anomalies or out-of-specification conditions</li>
+                            <li><strong>Consider Uncertainty:</strong> Evaluate results within the context of analytical uncertainty</li>
+                            <li><strong>Apply Specifications:</strong> Compare against established acceptance criteria</li>
+                            <li><strong>Assess Risk:</strong> Consider potential impact on consumer safety and regulatory compliance</li>
+                            <li><strong>Make Disposition:</strong> Release, reject, or investigate further based on comprehensive evaluation</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <h2>Batch Release Criteria</h2>
+                <p>Clear batch release criteria ensure that only compliant products reach consumers while supporting efficient operations.</p>
+
+                <h3>Comprehensive Release Requirements</h3>
+                <ul>
+                    <li><strong>All Testing Complete:</strong> No pending results for required tests</li>
+                    <li><strong>Specification Compliance:</strong> All results within established acceptance criteria</li>
+                    <li><strong>Documentation Review:</strong> Complete batch records and manufacturing documentation</li>
+                    <li><strong>Label Verification:</strong> Accurate labeling reflecting actual test results</li>
+                    <li><strong>Quality Approval:</strong> Final sign-off by qualified quality assurance personnel</li>
+                </ul>
+
+                <div class="interactive-element">
+                    <h4>📊 Cost-Benefit Analysis</h4>
+                    <p>Effective testing programs balance comprehensive analysis with cost considerations:</p>
+                    <ul>
+                        <li><strong>Testing Frequency:</strong> Optimize based on product risk and historical performance</li>
+                        <li><strong>Laboratory Selection:</strong> Balance cost, quality, and turnaround time</li>
+                        <li><strong>Test Panel Design:</strong> Include only necessary tests while maintaining safety</li>
+                        <li><strong>Batch Size Optimization:</strong> Larger batches reduce per-unit testing costs</li>
+                        <li><strong>Supplier Qualification:</strong> Better suppliers reduce incoming material testing needs</li>
+                    </ul>
+                </div>
+
+                <h3>Trend Analysis and Improvement</h3>
+                <p>Testing data provides valuable insights for process improvement and quality enhancement when properly analyzed and interpreted.</p>
+
+                <ul>
+                    <li><strong>Statistical Process Control:</strong> Monitor trends and identify process variations</li>
+                    <li><strong>Supplier Performance:</strong> Track raw material quality over time</li>
+                    <li><strong>Method Performance:</strong> Evaluate laboratory performance and method reliability</li>
+                    <li><strong>Compliance Trends:</strong> Monitor regulatory compliance performance</li>
+                </ul>
+
+                <p>Quality control testing serves as the foundation for product safety and regulatory compliance. In the next module, we'll explore how to prevent contamination through proper facility design and control systems.</p>
+            `
+        },
+        {
+            id: 7,
+            title: "Contamination Prevention and Control",
+            duration: "4 minutes",
+            content: `
+                <h1>Contamination Prevention and Control</h1>
+                
+                <div class="interactive-element">
+                    <h4>🎯 Learning Objectives</h4>
+                    <p>Upon completion of this module, you will be able to:</p>
+                    <ul>
+                        <li><strong>Identify contamination sources</strong> and pathways in cannabis manufacturing environments</li>
+                        <li><strong>Design effective contamination control systems</strong> including facility layout, airflow management, and personnel procedures</li>
+                        <li><strong>Implement comprehensive cleaning and sanitization protocols</strong> that prevent cross-contamination between products and batches</li>
+                        <li><strong>Establish environmental monitoring programs</strong> that detect potential contamination issues before they impact products</li>
+                        <li><strong>Develop pest control strategies</strong> that protect products while complying with cannabis-specific restrictions</li>
+                    </ul>
+                </div>
+
+                <h2>Understanding Contamination Risks</h2>
+                <p>Contamination in cannabis manufacturing can occur through multiple pathways and take various forms, each requiring specific prevention and control strategies.</p>
+
+                <div class="interactive-element">
+                    <h4>🦠 Types of Contamination</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                        <div style="padding: 1.5rem; border: 3px solid #dc3545; border-radius: 12px; background: #f8d7da;">
+                            <h5 style="color: #721c24; margin-bottom: 1rem;">🦠 Microbiological</h5>
+                            <ul style="color: #721c24; font-size: 0.9rem; margin: 0;">
+                                <li>Bacteria (E. coli, Salmonella)</li>
+                                <li>Yeast and mold growth</li>
+                                <li>Pathogenic organisms</li>
+                                <li>Spoilage microorganisms</li>
+                            </ul>
+                        </div>
+                        <div style="padding: 1.5rem; border: 3px solid #fd7e14; border-radius: 12px; background: #fff3cd;">
+                            <h5 style="color: #856404; margin-bottom: 1rem;">⚗️ Chemical</h5>
+                            <ul style="color: #856404; font-size: 0.9rem; margin: 0;">
+                                <li>Cleaning chemical residues</li>
+                                <li>Pesticide contamination</li>
+                                <li>Heavy metal contamination</li>
+                                <li>Cross-contamination between products</li>
+                            </ul>
+                        </div>
+                        <div style="padding: 1.5rem; border: 3px solid #6c757d; border-radius: 12px; background: #f8f9fa;">
+                            <h5 style="color: #495057; margin-bottom: 1rem;">🔩 Physical</h5>
+                            <ul style="color: #495057; font-size: 0.9rem; margin: 0;">
+                                <li>Foreign objects</li>
+                                <li>Metal fragments</li>
+                                <li>Packaging materials</li>
+                                <li>Personal items</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Facility Design for Contamination Control</h2>
+                <p>Proper facility design is the first line of defense against contamination, creating physical barriers and controlled environments that minimize risks.</p>
+
+                <div class="interactive-element">
+                    <h4>🏗️ Design Principles</h4>
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+                        <h5>Material Flow Design:</h5>
+                        <div style="font-family: monospace; background: white; padding: 1rem; border-radius: 4px; border: 1px solid #dee2e6; margin: 1rem 0;">
+                            Raw Materials → Quarantine → Production → Packaging → Finished Goods
+                            <br>↓ (Inspection) ↓ (Processing) ↓ (QC Testing) ↓ (Release)
+                        </div>
+                        
+                        <h5>Critical Design Features:</h5>
+                        <ul style="font-size: 0.9rem;">
+                            <li><strong>Unidirectional Flow:</strong> Prevent backtracking and cross-contamination</li>
+                            <li><strong>Segregated Areas:</strong> Separate raw materials, processing, and finished goods</li>
+                            <li><strong>Controlled Access:</strong> Restricted entry to manufacturing areas</li>
+                            <li><strong>Proper Drainage:</strong> Prevent standing water and microbial growth</li>
+                            <li><strong>Smooth Surfaces:</strong> Easily cleanable walls, floors, and equipment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>Environmental Controls</h3>
+                <p>HVAC systems and environmental monitoring create controlled conditions that prevent contamination and support product quality.</p>
+
+                <ul>
+                    <li><strong>Air Filtration:</strong> HEPA filtration to remove particulates and microorganisms</li>
+                    <li><strong>Pressure Differentials:</strong> Positive pressure in clean areas to prevent contaminated air entry</li>
+                    <li><strong>Temperature Control:</strong> Optimal conditions for processing while preventing microbial growth</li>
+                    <li><strong>Humidity Management:</strong> Control moisture to prevent mold and yeast growth</li>
+                    <li><strong>Air Changes:</strong> Adequate air turnover to remove contaminants</li>
+                </ul>
+
+                <h2>Personnel Procedures and Training</h2>
+                <p>Human activities are often the greatest source of contamination. Comprehensive personnel procedures and training are essential for contamination control.</p>
+
+                <div class="interactive-element">
+                    <h4>👥 Personnel Contamination Control</h4>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                        <div style="padding: 1rem; background: #2d5016; color: white; border-radius: 8px; text-align: center;">
+                            <h6 style="margin: 0 0 0.5rem;">🧼 Personal Hygiene</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Hand washing, sanitization, personal cleanliness</p>
+                        </div>
+                        <div style="padding: 1rem; background: #4a7c59; color: white; border-radius: 8px; text-align: center;">
+                            <h6 style="margin: 0 0 0.5rem;">👔 Protective Clothing</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Hair nets, gloves, aprons, dedicated footwear</p>
+                        </div>
+                        <div style="padding: 1rem; background: #d4af37; color: #2d5016; border-radius: 8px; text-align: center;">
+                            <h6 style="margin: 0 0 0.5rem;">🚷 Access Control</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Restricted areas, visitor procedures, ID requirements</p>
+                        </div>
+                        <div style="padding: 1rem; background: #8fbc8f; color: #2d5016; border-radius: 8px; text-align: center;">
+                            <h6 style="margin: 0 0 0.5rem;">📚 Training</h6>
+                            <p style="font-size: 0.8rem; margin: 0;">Contamination awareness, procedure compliance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Cleaning and Sanitization</h3>
+                <p>Systematic cleaning and sanitization procedures remove contaminants and prevent their accumulation.</p>
+
+                <div class="interactive-element">
+                    <h4>🧽 Cleaning Protocol Framework</h4>
+                    <div style="background: #d4edda; padding: 1.5rem; border-radius: 8px; margin: 1rem 0; border: 2px solid #28a745;">
+                        <h5 style="color: #155724;">Standard Cleaning Procedure:</h5>
+                        <ol style="color: #155724; font-size: 0.9rem;">
+                            <li><strong>Remove Debris:</strong> Physical removal of visible contamination</li>
+                            <li><strong>Rinse:</strong> Remove loose particles and prepare surfaces</li>
+                            <li><strong>Clean:</strong> Apply appropriate cleaning agents to remove soils</li>
+                            <li><strong>Rinse:</strong> Remove cleaning agent residues</li>
+                            <li><strong>Sanitize:</strong> Apply sanitizing agents to reduce microbial load</li>
+                            <li><strong>Final Rinse:</strong> Remove sanitizer residues if required</li>
+                            <li><strong>Inspect:</strong> Verify cleaning effectiveness</li>
+                            <li><strong>Document:</strong> Record cleaning activities and results</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <h2>Environmental Monitoring</h2>
+                <p>Proactive environmental monitoring detects potential contamination issues before they impact products, enabling corrective action before problems occur.</p>
+
+                <h3>Monitoring Program Elements</h3>
+                <ul>
+                    <li><strong>Air Quality:</strong> Microbial and particulate monitoring in production areas</li>
+                    <li><strong>Surface Monitoring:</strong> Regular testing of equipment and facility surfaces</li>
+                    <li><strong>Water Quality:</strong> Testing of process water and cleaning water</li>
+                    <li><strong>Personnel Monitoring:</strong> Hand washing effectiveness and hygiene compliance</li>
+                </ul>
+
+                <div class="interactive-element">
+                    <h4>📊 Environmental Monitoring Strategy</h4>
+                    <div style="background: #f0f9ff; padding: 1.5rem; border-radius: 8px; border: 2px solid #17a2b8; margin: 1rem 0;">
+                        <h5 style="color: #17a2b8;">Sampling Locations:</h5>
+                        <ul style="color: #17a2b8; font-size: 0.9rem;">
+                            <li><strong>Zone 1:</strong> Direct product contact surfaces</li>
+                            <li><strong>Zone 2:</strong> Adjacent areas that could impact Zone 1</li>
+                            <li><strong>Zone 3:</strong> Processing environment (floors, walls, drains)</li>
+                            <li><strong>Zone 4:</strong> Areas outside processing but within facility</li>
+                        </ul>
+                        
+                        <h5 style="color: #17a2b8;">Action Levels:</h5>
+                        <ul style="color: #17a2b8; font-size: 0.9rem;">
+                            <li><strong>Alert Level:</strong> Triggers increased monitoring and investigation</li>
+                            <li><strong>Action Level:</strong> Requires immediate corrective action</li>
+                            <li><strong>Specifications:</strong> Maximum acceptable levels for different zones</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Pest Control</h2>
+                <p>Integrated pest management prevents contamination while complying with cannabis-specific restrictions on pesticide use.</p>
+
+                <h3>Pest Prevention Strategies</h3>
+                <ul>
+                    <li><strong>Physical Exclusion:</strong> Sealed building envelope, proper door seals, window screens</li>
+                    <li><strong>Sanitation:</strong> Eliminate food sources and breeding sites</li>
+                    <li><strong>Monitoring:</strong> Regular inspection and pest monitoring devices</li>
+                    <li><strong>Professional Service:</strong> Licensed pest control operators familiar with cannabis regulations</li>
+                </ul>
+
+                <div class="interactive-element">
+                    <h4>🐛 Cannabis-Specific Pest Control Considerations</h4>
+                    <ul>
+                        <li><strong>Restricted Pesticides:</strong> Many conventional pesticides prohibited for cannabis use</li>
+                        <li><strong>Organic Methods:</strong> Emphasis on non-chemical control methods</li>
+                        <li><strong>Documentation:</strong> Detailed records of all pest control activities</li>
+                        <li><strong>Product Safety:</strong> Ensure pest control methods don't contaminate products</li>
+                        <li><strong>Regular Monitoring:</strong> Frequent inspection to detect issues early</li>
+                    </ul>
+                </div>
+
+                <h3>Investigation and Corrective Action</h3>
+                <p>When contamination is detected, systematic investigation and corrective action prevent recurrence and protect product quality.</p>
+
+                <ul>
+                    <li><strong>Root Cause Analysis:</strong> Identify the source and cause of contamination</li>
+                    <li><strong>Impact Assessment:</strong> Determine extent of contamination and affected products</li>
+                    <li><strong>Immediate Actions:</strong> Isolate affected areas and products</li>
+                    <li><strong>Corrective Measures:</strong> Address root causes and prevent recurrence</li>
+                    <li><strong>Verification:</strong> Confirm effectiveness of corrective actions</li>
+                </ul>
+
+                <p>Contamination prevention requires a comprehensive, systematic approach that addresses all potential sources and pathways. In the next module, we'll explore how proper documentation and record keeping support contamination control and overall quality assurance.</p>
+            `
+        },
+        {
+            id: 8,
+            title: "Documentation and Record Keeping",
+            duration: "4 minutes",
+            content: `
+                <h1>Documentation and Record Keeping</h1>
+                
+                <div class="interactive-element">
+                    <h4>🎯 Learning Objectives</h4>
+                    <p>Upon completion of this module, you will be able to:</p>
+                    <ul>
+                        <li><strong>Design comprehensive documentation systems</strong> that support both regulatory compliance and operational efficiency</li>
+                        <li><strong>Implement effective document control procedures</strong> ensuring that current, accurate information is available when needed</li>
+                        <li><strong>Establish traceability systems</strong> that enable rapid identification and resolution of quality issues</li>
+                        <li><strong>Develop electronic documentation strategies</strong> that improve efficiency while maintaining compliance</li>
+                        <li><strong>Create audit-ready documentation</strong> that demonstrates compliance and supports regulatory inspections</li>
+                    </ul>
+                </div>
+
+                <h2>Documentation as Quality Infrastructure</h2>
+                <p>Effective documentation systems serve as the foundation of quality assurance, enabling consistency, traceability, and continuous improvement throughout cannabis manufacturing operations.</p>
+
+                <div class="interactive-element">
+                    <h4>📚 Documentation Hierarchy</h4>
+                    <div style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin: 1rem 0;">
+                        <div style="padding: 1.5rem; border-left: 6px solid #2d5016; background: #f9f9f9;">
+                            <h5 style="color: #2d5016; margin: 0 0 0.5rem;">Level 1: Quality Policy & Manual</h5>
+                            <p style="font-size: 0.9rem; margin: 0;">High-level quality policy, organizational structure, and system overview defining the company's commitment to quality</p>
+                        </div>
+                        <div style="padding: 1.5rem; border-left: 6px solid #4a7c59; background: #f9f9f9;">
+                            <h5 style="color: #4a7c59; margin: 0 0 0.5rem;">Level 2: Standard Operating Procedures (SOPs)</h5>
+                            <p style="font-size: 0.9rem; margin: 0;">Detailed procedures for specific activities, processes, and operations that ensure consistent execution</p>
+                        </div>
+                        <div style="padding: 1.5rem; border-left: 6px solid #d4af37; background: #f9f9f9;">
+                            <h5 style="color: #d4af37; margin: 0 0 0.5rem;">Level 3: Work Instructions & Forms</h5>
+                            <p style="font-size: 0.9rem; margin: 0;">Step-by-step instructions for specific tasks and standardized forms for data collection</p>
+                        </div>
+                        <div style="padding: 1.5rem; border-left: 6px solid #8fbc8f; background: #f9f9f9;">
+                            <h5 style="color: #8fbc8f; margin: 0 0 0.5rem;">Level 4: Records & Data</h5>
+                            <p style="font-size: 0.9rem; margin: 0;">Evidence of activities performed, results achieved, and compliance demonstrated</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Essential Documentation Categories</h2>
+                <p>Cannabis manufacturing requires comprehensive documentation across all operational areas to ensure regulatory compliance and quality assurance.</p>
+
+                <h3>Production Documentation</h3>
+                <div class="interactive-element">
+                    <h4>🏭 Manufacturing Records</h4>
+                    <ul>
+                        <li><strong>Master Batch Records (MBRs):</strong> Master recipes and production instructions for each product</li>
+                        <li><strong>Batch Production Records (BPRs):</strong> Documentation of actual production activities and results</li>
+                        <li><strong>Equipment Logs:</strong> Maintenance, calibration, cleaning, and use records</li>
+                        <li><strong>Environmental Records:</strong> Temperature, humidity, and monitoring data</li>
+                        <li><strong>Material Transfer Records:</strong> Movement of raw materials and finished products</li>
+                    </ul>
+                </div>
+
+                <h3>Quality Control Documentation</h3>
+                <ul>
+                    <li><strong>Testing Protocols:</strong> Detailed procedures for all analytical testing</li>
+                    <li><strong>Certificates of Analysis (COAs):</strong> Complete test results for all batches</li>
+                    <li><strong>Sampling Records:</strong> Documentation of sampling procedures and chain of custody</li>
+                    <li><strong>Method Validation:</strong> Validation of analytical test methods</li>
+                    <li><strong>Laboratory Qualifications:</strong> Evidence of laboratory competency and accreditation</li>
+                </ul>
+
+                <div class="interactive-element">
+                    <h4>📋 Document Control Best Practices</h4>
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px; margin: 1rem 0;">
+                        <h5>ALCOA-C Principles:</h5>
+                        <ul style="font-size: 0.9rem;">
+                            <li><strong>Attributable:</strong> Clear identification of who performed each activity</li>
+                            <li><strong>Legible:</strong> Records that can be read and understood</li>
+                            <li><strong>Contemporaneous:</strong> Records made at the time activities are performed</li>
+                            <li><strong>Original:</strong> First recording of data or certified true copies</li>
+                            <li><strong>Accurate:</strong> Complete and truthful documentation</li>
+                            <li><strong>Complete:</strong> All required information included</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Traceability Systems</h2>
+                <p>Comprehensive traceability enables rapid identification of products and materials throughout the supply chain, supporting both quality improvement and regulatory compliance.</p>
+
+                <h3>Traceability Requirements</h3>
+                <div class="interactive-element">
+                    <h4>🔗 Complete Chain of Custody</h4>
+                    <div style="background: #e7f3ff; padding: 1.5rem; border-radius: 8px; border: 2px solid #17a2b8; margin: 1rem 0;">
+                        <h5 style="color: #17a2b8;">Forward Traceability:</h5>
+                        <p style="color: #17a2b8; font-size: 0.9rem;">Track products from raw materials through processing to final distribution - "Where did it go?"</p>
+                        
+                        <h5 style="color: #17a2b8;">Backward Traceability:</h5>
+                        <p style="color: #17a2b8; font-size: 0.9rem;">Trace finished products back to their component materials and suppliers - "Where did it come from?"</p>
+                        
+                        <h5 style="color: #17a2b8;">Internal Traceability:</h5>
+                        <p style="color: #17a2b8; font-size: 0.9rem;">Track materials and products through all internal processing steps - "What happened to it here?"</p>
+                    </div>
+                </div>
+
+                <h3>State Traceability Integration</h3>
+                <p>Many states require cannabis manufacturers to integrate with state-mandated traceability systems that track products from cultivation to sale.</p>
+
+                <ul>
+                    <li><strong>Seed-to-Sale Tracking:</strong> Complete product journey documentation</li>
+                    <li><strong>RFID/Barcode Systems:</strong> Electronic tracking and identification</li>
+                    <li><strong>Real-Time Reporting:</strong> Immediate updates to state systems</li>
+                    <li><strong>Inventory Management:</strong> Accurate tracking of all materials and products</li>
+                    <li><strong>Transfer Documentation:</strong> Detailed records of all product movements</li>
+                </ul>
+
+                <h2>Electronic Documentation Systems</h2>
+                <p>Electronic systems can improve efficiency and accuracy while maintaining compliance, but require careful implementation and validation.</p>
+
+                <div class="interactive-element">
+                    <h4>💻 Electronic vs. Paper Systems</h4>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin: 1rem 0;">
+                        <div>
+                            <h5 style="color: #28a745;">Electronic System Advantages:</h5>
+                            <ul style="font-size: 0.9rem;">
+                                <li>Improved data integrity and security</li>
+                                <li>Real-time access to information</li>
+                                <li>Automated calculations and validations</li>
+                                <li>Electronic signatures and audit trails</li>
+                                <li>Easy backup and disaster recovery</li>
+                                <li>Integration with other systems</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5 style="color: #6c757d;">Implementation Considerations:</h5>
+                            <ul style="font-size: 0.9rem;">
+                                <li>21 CFR Part 11 compliance requirements</li>
+                                <li>System validation and verification</li>
+                                <li>User access controls and permissions</li>
+                                <li>Data backup and retention procedures</li>
+                                <li>Change control and version management</li>
+                                <li>Training and competency requirements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Hybrid Documentation Approaches</h3>
+                <p>Many organizations successfully implement hybrid systems that combine electronic and paper documentation based on specific needs and capabilities.</p>
+
+                <ul>
+                    <li><strong>Critical Records Electronic:</strong> Key production and quality records in validated electronic systems</li>
+                    <li><strong>Routine Activities Paper:</strong> Standard checklists and routine monitoring on paper</li>
+                    <li><strong>Gradual Migration:</strong> Phased transition from paper to electronic systems</li>
+                    <li><strong>Backup Systems:</strong> Paper backup procedures for electronic system failures</li>
+                </ul>
+
+                <h2>Record Retention and Storage</h2>
+                <p>Proper record retention ensures that documentation is available when needed for audits, investigations, and regulatory inspections.</p>
+
+                <div class="interactive-element">
+                    <h4>📅 Retention Requirements</h4>
+                    <div style="background: #fff3cd; padding: 1.5rem; border-radius: 8px; border: 2px solid #ffc107; margin: 1rem 0;">
+                        <h5 style="color: #856404;">Typical Retention Periods:</h5>
+                        <ul style="color: #856404; font-size: 0.9rem;">
+                            <li><strong>Batch Records:</strong> 3 years minimum (longer if required by state)</li>
+                            <li><strong>Testing Data:</strong> 3 years or product shelf life + 1 year</li>
+                            <li><strong>Training Records:</strong> Duration of employment + 3 years</li>
+                            <li><strong>Equipment Records:</strong> Life of equipment + 3 years</li>
+                            <li><strong>Validation Data:</strong> Life of system/process + 3 years</li>
+                            <li><strong>Complaint Records:</strong> 5 years minimum</li>
+                        </ul>
+                        
+                        <p style="color: #856404; font-size: 0.9rem; margin-top: 1rem;"><strong>Note:</strong> Always check specific state and local requirements, which may be longer than federal minimums.</p>
+                    </div>
+                </div>
+
+                <h3>Document Security and Access Control</h3>
+                <p>Protecting documentation integrity while ensuring appropriate access requires systematic security measures.</p>
+
+                <ul>
+                    <li><strong>Physical Security:</strong> Locked storage for paper records</li>
+                    <li><strong>Electronic Security:</strong> Password protection, encryption, and access controls</li>
+                    <li><strong>Backup Procedures:</strong> Regular backups with off-site storage</li>
+                    <li><strong>Access Authorization:</strong> Role-based access to sensitive information</li>
+                    <li><strong>Audit Trails:</strong> Complete records of who accessed what information when</li>
+                </ul>
+
+                <h2>Audit Preparation</h2>
+                <p>Well-organized documentation systems make regulatory inspections more efficient and demonstrate commitment to compliance.</p>
+
+                <div class="interactive-element">
+                    <h4>🔍 Inspection Readiness</h4>
+                    <div style="background: #d4edda; padding: 1.5rem; border-radius: 8px; border: 2px solid #28a745; margin: 1rem 0;">
+                        <h5 style="color: #155724;">Documentation Organization Strategy:</h5>
+                        <ol style="color: #155724; font-size: 0.9rem;">
+                            <li><strong>Master Index:</strong> Complete listing of all documentation with locations</li>
+                            <li><strong>Current Versions:</strong> Ensure only current, approved documents are available</li>
+                            <li><strong>Quick Access:</strong> Organize for rapid retrieval during inspections</li>
+                            <li><strong>Electronic Backups:</strong> Have electronic copies readily available</li>
+                            <li><strong>Responsible Personnel:</strong> Designate document custodians for each area</li>
+                            <li><strong>Practice Retrievals:</strong> Regular drills to test document access procedures</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <h3>Common Documentation Deficiencies</h3>
+                <p>Understanding common documentation problems helps prevent compliance issues and regulatory citations.</p>
+
+                <ul>
+                    <li><strong>Incomplete Records:</strong> Missing signatures, dates, or required information</li>
+                    <li><strong>Illegible Entries:</strong> Handwriting that cannot be read or understood</li>
+                    <li><strong>Altered Records:</strong> Changes made without proper authorization or documentation</li>
+                    <li><strong>Missing Documents:</strong> Required records that cannot be located</li>
+                    <li><strong>Outdated Procedures:</strong> Using superseded or obsolete procedures</li>
+                    <li><strong>Inadequate Training:</strong> Personnel not trained on documentation requirements</li>
+                </ul>
+
+                <h2>Continuous Improvement</h2>
+                <p>Documentation systems should evolve to support changing business needs while maintaining compliance and improving efficiency.</p>
+
+                <div class="interactive-element">
+                    <h4>📈 System Enhancement Opportunities</h4>
+                    <ul>
+                        <li><strong>User Feedback:</strong> Regular input from personnel who use the documentation daily</li>
+                        <li><strong>Process Simplification:</strong> Eliminate redundant or unnecessary documentation</li>
+                        <li><strong>Technology Upgrades:</strong> Implement new technologies that improve efficiency</li>
+                        <li><strong>Integration Opportunities:</strong> Connect documentation with other business systems</li>
+                        <li><strong>Performance Metrics:</strong> Track documentation effectiveness and efficiency</li>
+                        <li><strong>Benchmark Comparisons:</strong> Learn from other organizations' best practices</li>
+                    </ul>
+                </div>
+
+                <p>Effective documentation and record keeping systems provide the foundation for all quality assurance activities, enabling traceability, supporting compliance, and facilitating continuous improvement. In the next module, we'll explore how personnel training and competency development ensure that all team members can execute these documented procedures effectively.</p>
+            `
+        },
+        // Continue with modules 9-14 in subsequent updates...
     ]
 };
 
